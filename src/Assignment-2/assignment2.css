@@ -1,7 +1,94 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
+border: 2px solid;
+padding: 4px;
+}
+.box1{
+    height: 190px;
+    border: 2px solid;
+}
+.box2{
+    height: 600px;;
+    border: 2px solid;
+}
+.page-header{
+    margin: 10px;
+    height: 140px;
+    background-color: aliceblue;
+    display: block;
+    border: 2px solid;
+}
+.page-logo-container{
+    height: 140px;
+    width:  150px;
+    float: left;
+}
+.page-logo{
+    height: 140px;
+    width: 150px;
+}
+.page-search{
+    float: right;
+    margin-top: 60px;
+}
+.page-nav-bar{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+}
+.page-nav-link{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+.col1{
+    width: 15%;
+    height:81%;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid;
+    padding: 0.25%;
+    position: absolute;
+    left: 0%;
+    line-height: 300%
+}
+.col2{
+  display: inline-block;
+  border: 2px solid;
+  align-content: center;
+  position: absolute;
+  right:15%;
+  width: 65%;
+  height: 81%;
+  margin: 10px;
+  padding: 0.25%;
+  justify-content: center;
+}
+.col3{
+    width: 15%;
+    height:81%;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid;
+    padding: 0.25%;
+    position: absolute;
+    right: 0%;
+    line-height: 300%
+}
+.footer{
+    display: inline-block;
+    border: 2px solid;
+    position: absolute;
+    top: 800px;
+    width: 100%;
+}
+.page-logo1{
+    margin: 40px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 100px;
 }
