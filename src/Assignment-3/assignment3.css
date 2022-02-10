@@ -4,4 +4,85 @@
 .container, .content {
 width: 100%;
 height: 100%;
+background-color: #F2F2F2;
+margin-bottom: 1.5%;
+}
+.col1{
+    width: 45%;
+    height: 94%;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+    font-size: x-large;
+    vertical-align: top;
+    text-align: left;
+}
+.col2{
+    width:  45%;
+    height: 30em;
+    display: inline-block;
+    padding-left: 1%;
+}
+#render-wiki1{
+    width: 35%;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    position: absolute;
+    right: 5%;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+.row1{
+    width: 48%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 24%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: x-large;
+}
+.row2{
+    width: 100%;
+    height: 30em;
+    display: inline-block;
+    margin-bottom: 1.5%;
+    padding-bottom: 2.5%;
+}
+#render-dictionary{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.button1{
+    width: 25%;
+    height: 3em;
+    display: block;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+}
+.button2{
+    width: 25%;
+    height: 3em;
+    display: block;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    position: relative;
+    left: 38%;
 }
